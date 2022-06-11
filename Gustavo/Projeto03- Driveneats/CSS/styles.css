@@ -43,6 +43,7 @@ body{
 }
 .container{
     display: flex;
+    width: 100%;
     
 }
 .primeiro p{ 
@@ -71,6 +72,10 @@ body{
     min-width: 172px;
     border-radius: 9px;
     margin-right: 16px;
+}
+.selecionado{
+    border: #32B72F 5px solid;
+    ;
 }
 .pratos img{
     margin-top: 18px;
@@ -123,4 +128,29 @@ body{
     width: 231px;
     height: 25px;
     margin-top: 27px;
+}
+.pedido{
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 92px;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fecharpedido{
+  
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #CBCBCB;
+}
+.fecharpedido p{
+    font-family:Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+
 }
