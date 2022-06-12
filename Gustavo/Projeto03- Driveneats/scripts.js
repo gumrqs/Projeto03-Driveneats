@@ -13,6 +13,7 @@ function verificarBotao(){
         const botaoFinalizar = document.querySelector(".fecharpedido");
         botaoFinalizar.classList.add("botao-liberado");
         botaoFinalizar.disabled=false;
+        botaoFinalizar.innerHTML="Fechar Pedido";
     }
 }
 
@@ -144,7 +145,6 @@ function selecionar(elemento){
 
 }
 function finalizarPedido(){
-    console.log('Entrei na função finalizar')
     const somaPedidos = precoComidaEscolhida + precoBebidaEscolhida + precoSobremesaEscolhida;
     const mensagem = `Olá, gostaria de fazer o pedido:
                     - Prato: ${nomeComidaEscolhida}
