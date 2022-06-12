@@ -129,6 +129,10 @@ body{
     height: 25px;
     margin-top: 27px;
 }
+.espacamento-inferior{
+    height: 108px;
+    width: 100%;
+}
 .pedido{
     position: fixed;
     background-color: #FFFFFF;
@@ -150,6 +154,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: none;
+}
+.botao-liberado{
+    background-color: #32B72F;
+
 }
 .fecharpedido p{
     font-family:Roboto;
